@@ -1,0 +1,80 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family: "Open Sans", sans-serif;
+  background: #000000;
+  color:white;
+  font-size:18px;
+}
+
+.bg {
+  position: absolute;
+  height:1463px;
+  width:2048px;
+  background: url(http://winallos.com/uploads/posts/2014-11/1417168511_bumaga-list-beloe.jpg);
+  opacity: 0.15;
+}
+
+.picture1 {
+  display:inline-block;
+  position:relative;
+}
+
+.picture1 span {
+  display:inline-block;
+  position:absolute;
+  top: 230px;
+  left:0px;
+  color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  background-color: black;
+  padding: 10px 20px;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  color: black;
+  border: 0px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: gray;
+  color: #FFFFFF;
+}
